@@ -18,7 +18,7 @@ An application utilizing the MovieAPI for fetching data from TMDB and storing it
 <dependency>
     <groupId>org.mariadb.jdbc</groupId>
     <artifactId>mariadb-java-client</artifactId>
-    <version>2.7.1</version>
+    <version>3.0.3</version>
 </dependency>
 ```
  - MovieAPI library (created in the Part 1 - Hands-on)

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MovieDBService {
-  static final String SQL_CONN_STRING = "jdbc:mysql://localhost:3306/movieapp";
+  static final String SQL_CONN_STRING = "jdbc:mariadb://localhost:3306/movieapp";
   static final String USER = "user1";
   static final String PASS = "pass";
   static final MovieAPIService movieAPIService = MovieAPI.getMovieDBService();
